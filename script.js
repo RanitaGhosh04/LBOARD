@@ -5,29 +5,29 @@ let data = [
         lastName:'Sharma',
         counrty:'./india (1).png',
         playerScore:120,
-        keyImage:'https://imgk.timesnownews.com/story/Rohit_Sharma_BCCL3_3.jpg'
+        keyImage:'./RS.png'
     },
     {
         fisrtName:'Virat',
         lastName:'Kohli',
         counrty:'./india (1).png',
         playerScore:100,
-        keyImage:'https://1.bp.blogspot.com/-Bz6uidKEVWU/X82ZqzXuvyI/AAAAAAAAlEo/Xs-XBR57BnUgTSrAICVLUV4XA-_iuiUyQCLcBGAsYHQ/s1024/Virat.png'
+        keyImage:'./VR.png'
     },
     {
         fisrtName:'Gautam',
         lastName:'Gambhir',
         counrty:'./india (1).png',
-        playerScore:265,
-        keyImage:'https://img.timesnownews.com/46636997_352325651980766_6905232046311186957_n_1543940281__rend_4_3.jpg'
+        playerScore:200,
+        keyImage:'./gG.png'
     },
 
     {
-        fisrtName:'Sourav',
-        lastName:'Ganguly',
+        fisrtName:'Ravindra',
+        lastName:'Jadeja',
         counrty:'./india (1).png',
-        playerScore:150,
-        keyImage:'https://images.indiafantasy.com/wp-content/uploads/20210703103918/ganguly2-1.png'
+        playerScore:110,
+        keyImage:'./RJ.png'
     },
 
     {
@@ -35,7 +35,7 @@ let data = [
         lastName:'Gill',
         counrty:'./india (1).png',
         playerScore:180,
-        keyImage:'https://staticc.sportskeeda.com/editor/2023/03/e1d14-16788795528975-1920.jpg?w=840'
+        keyImage:'./SGill.png'
     },
 
     {
@@ -43,8 +43,8 @@ let data = [
         lastName:'Kishan',
         counrty:'./india (1).png',
         playerScore:90,
-        keyImage:'https://bodyartguru.com/wp-content/uploads/2021/03/Ishan-Kishan-Cricketer-Tattoos.jpg'
-    },
+        keyImage:'./IK.png'
+    }
 ]
 
 const countryImageMap = {
@@ -106,7 +106,7 @@ btn.addEventListener('click',(e)=>{
                 // counrty: pCountry.value,
                 counrty: countryImageMap[pCountry.value], 
                 playerScore: Number(pScore.value),
-                keyImage:'https://www.thestatesman.com/wp-content/uploads/2018/10/MS-Dhoni-6.jpg'
+                keyImage:'./MSD.png'
             };
 
             data.push(playerObj);
